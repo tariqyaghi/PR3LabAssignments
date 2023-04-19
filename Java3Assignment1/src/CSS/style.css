@@ -1,0 +1,20 @@
+.login{
+    -fx-border-color: blue;
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+.labels{
+    -fx-font-weight: bold;
+    -fx-text-fill: #04024e;
+    -fx-font-size: 20px;
+}
+.convert{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 14px;
+    -fx-background-color: #04024e;
+    -fx-border-color: #04024e;
+}

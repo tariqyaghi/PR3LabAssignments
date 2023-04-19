@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="399.0" prefWidth="496.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainScreenController">
+   <children>
+      <Label layoutX="36.0" layoutY="56.0" styleClass="labels" text="Currency Conversion System" />
+      <Button fx:id="btnLogout" layoutX="369.0" layoutY="54.0" mnemonicParsing="false" onAction="#signOut" prefHeight="33.0" prefWidth="91.0" styleClass="login" text="Sign Out" />
+      <TextField fx:id="txtUsd" layoutX="58.0" layoutY="215.0" prefHeight="33.0" prefWidth="151.0" />
+      <TextField fx:id="txtNis" layoutX="295.0" layoutY="215.0" prefHeight="33.0" prefWidth="151.0" />
+      <Label layoutX="113.0" layoutY="172.0" styleClass="labels" text="USD" />
+      <Label layoutX="352.0" layoutY="172.0" styleClass="labels" text="NIS" />
+      <Label layoutX="239.0" layoutY="213.0" styleClass="labels" text="To" />
+      <Button fx:id="btnConvert" defaultButton="true" layoutX="202.0" layoutY="293.0" mnemonicParsing="false" onAction="#convertValues" prefHeight="32.0" prefWidth="98.0" styleClass="convert" text="Convert" />
+   </children>
+</AnchorPane>
